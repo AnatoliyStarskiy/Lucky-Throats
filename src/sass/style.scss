@@ -1,0 +1,143 @@
+@use 'base/variables' as *;
+@use 'base/mixins';
+@use 'base/ui-kit';
+@use 'libs/bootstrap-reboot.min';
+@use 'libs/fonts';
+@use 'blocks/header';
+@use 'blocks/global';
+@use 'blocks/promo';
+@use 'blocks/about';
+@use 'blocks/team';
+@use 'blocks/services';
+@use 'blocks/booking';
+@use 'blocks/contacts';
+@use 'blocks/footer';
+@use 'blocks/policy';
+@use 'blocks/media';
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+html.booking-open,
+body.booking-open {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  font-family: $font-text;
+  background: #efe8dc;
+  color: #181512;
+  line-height: 1.6;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.22;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0)),
+    radial-gradient(rgba(38, 28, 19, 0.18) 0.45px, transparent 0.45px);
+  background-size: 100% 100%, 4px 4px;
+  z-index: 0;
+}
+
+.container {
+  width: min(1200px, 100% - 2rem);
+  margin: 0 auto;
+}
+
+.section {
+  padding: 96px 0;
+  background: #efe8dc;
+  position: relative;
+  z-index: 1;
+
+  &--dark {
+    background: #161311;
+    color: #f2ebe0;
+  }
+
+  &--alt {
+    background: #e8dece;
+  }
+
+  &--news {
+    background: #f5f0e7;
+  }
+
+  &--white {
+    background: #fff;
+  }
+
+  > .container > .title.title--md {
+    margin: 0;
+    line-height: 0.92;
+  }
+
+  > .container > .title.title--md + .divider {
+    margin-top: 0.95rem;
+    margin-bottom: 1.35rem;
+  }
+
+  > .container > .title.title--md + .divider + p {
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+    line-height: 1.65;
+  }
+}
+
+.about__content .title.title--md,
+.manifesto__lead .title.title--md,
+.cinema__content .title.title--md,
+.editorial__heading .title.title--md {
+  margin: 0;
+}
+
+.promo__eyebrow,
+.cinema__eyebrow,
+.editorial__kicker,
+.manifesto__eyebrow,
+.cta-strip__eyebrow,
+.team__label,
+.services__time,
+.purchase__badge {
+  margin: 0;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.62rem;
+  line-height: 1.2;
+  letter-spacing: 0.18em;
+  font-weight: 700;
+}
+
+.promo__eyebrow,
+.cinema__eyebrow,
+.manifesto__eyebrow,
+.cta-strip__eyebrow,
+.team__label,
+.services__time {
+  position: relative;
+  top: 0.02em;
+}
+
+.card {
+  border-radius: 6px;
+  border: 1px solid rgba(22, 18, 14, 0.16);
+  background: rgba(255, 255, 255, 0.5);
+  transition: transform 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    border-color: rgba(130, 91, 33, 0.45);
+    box-shadow: 0 16px 30px rgba(24, 20, 16, 0.12);
+  }
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Servicos e Precos | Lucky Throats Barbershop Lisboa</title>
+  <meta name="description"
+    content="Tabela de servicos Lucky Throats em Lisboa: haircut, beard trim, hot towel shave e combos com reserva online." />
+  <meta property="og:title" content="Servicos e Precos | Lucky Throats" />
+  <meta property="og:description"
+    content="Conhece os servicos e precos da Lucky Throats e reserva o teu horario online." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://luckythroats.pt/services.html" />
+  <meta property="og:image" content="https://luckythroats.pt/img/logo-white.png" />
+  <meta name="theme-color" content="#22100f" />
+  <link rel="canonical" href="https://luckythroats.pt/services.html" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body data-page="services">
+  <div class="site-loader" id="siteLoader" aria-hidden="true">
+    <div class="site-loader__mark">Lucky Throats</div>
+  </div>
+  <div data-site-header></div>
+
+  <main class="treatments-page">
+    <section class="treatments-hero reveal">
+      <div class="treatments-hero__bg" data-parallax data-parallax-speed="0.1">
+        <img src="/img/bg.jpg" loading="eager" decoding="async" alt="Lucky Throats treatments hero" />
+      </div>
+      <div class="container treatments-hero__content">
+        <h1 data-i18n="services_page_title">Servicos e Precos</h1>
+      </div>
+    </section>
+
+    <section class="treatments section reveal">
+      <div class="container">
+
+          <div class="treatments__grid">
+            <article class="treatments__group">
+              <h2 data-i18n="services_group_core">Servicos principais</h2>
+              <ul class="treatments__list" data-services-list="core">
+                <li>
+                  <div>
+                    <h3 data-i18n="service_1_title">Corte de Cabelo (HAIRCUT)</h3>
+                    <p data-i18n="service_1_desc">Corte classico com finalizacao personalizada.</p>
+                  </div>
+                  <strong>&euro;20</strong>
+                </li>
+                <li>
+                  <div>
+                    <h3 data-i18n="service_2_title">Corte de Cabelo Rapado (BUZZCUT)</h3>
+                    <p data-i18n="service_2_desc">Buzzcut limpo com acabamento de nuca e contornos.</p>
+                  </div>
+                  <strong>&euro;12.5</strong>
+                </li>
+                <li>
+                  <div>
+                    <h3 data-i18n="service_3_title">Corte de Cabelo Rapado C/ Degrad&ecirc; (BUZZCUT WITH FADE)</h3>
+                    <p data-i18n="service_3_desc">Buzzcut with fade para um visual mais marcado.</p>
+                  </div>
+                  <strong>&euro;14.5</strong>
+                </li>
+                <li>
+                  <div>
+                    <h3 data-i18n="service_7_title">Combo - Corte de Cabelo e Barba (COMBO - HAIRCUT &amp; HOT TOWEL SHAVE)</h3>
+                    <p data-i18n="service_7_desc">Haircut e hot towel shave no mesmo servico.</p>
+                  </div>
+                  <strong>&euro;35</strong>
+                </li>
+              </ul>
+            </article>
+
+            <article class="treatments__group">
+              <h2 data-i18n="services_group_detail">Servicos de detalhe</h2>
+              <ul class="treatments__list" data-services-list="detail">
+                <li>
+                  <div>
+                    <h3 data-i18n="service_4_title">Barba &agrave; M&aacute;quina (BEARD TRIM)</h3>
+                    <p data-i18n="service_4_desc">Ajuste e desenho de barba com maquina.</p>
+                  </div>
+                  <strong>&euro;11</strong>
+                </li>
+                <li>
+                  <div>
+                    <h3 data-i18n="service_5_title">Barba &agrave; Navalha (hot towel shave)</h3>
+                    <p data-i18n="service_5_desc">Hot towel shave com acabamento de navalha.</p>
+                  </div>
+                  <strong>&euro;17</strong>
+                </li>
+                <li>
+                  <div>
+                    <h3 data-i18n="service_6_title">Cabe&ccedil;a &agrave; Navalha (HEAD SHAVE)</h3>
+                    <p data-i18n="service_6_desc">Shave completo da cabeca com acabamento preciso.</p>
+                  </div>
+                  <strong>&euro;17</strong>
+                </li>
+              </ul>
+            </article>
+          </div>
+
+          <p class="treatments__note" data-i18n="services_note">
+            Cada servico inclui consulta rapida, execucao precisa e verificacao final de detalhe. Reserva antecipada
+            recomendada para garantir o horario ideal.
+          </p>
+
+          <div class="treatments__actions">
+            <button class="btn btn--main js-booking-open" data-i18n="book_now">Book now</button>
+          </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-site-footer></div>
+
+  <div class="booking-frame" id="bookingFrame" aria-hidden="true">
+    <div class="booking-frame__overlay" data-close-booking="true"></div>
+    <div class="booking-frame__content" role="dialog" aria-modal="true" aria-label="Booking widget"><button
+        class="booking-frame__close" id="bookingClose" aria-label="Close booking">x</button>
+      <h3 class="booking-frame__title" data-i18n="booking_modal_title">Reserva online</h3>
+      <div class="booking-frame__loader" id="bookingLoader" data-i18n="loading_booking">A carregar agenda...</div>
+      <iframe id="bookingIframe" title="Lucky Throats booking" src="" loading="lazy"></iframe><a id="bookingFallback"
+        class="booking-frame__fallback" href="#" target="_blank" rel="noopener noreferrer"
+        data-i18n="fallback_link">Abrir agenda numa nova aba</a>
+    </div>
+  </div>
+
+  <script type="module" src="/js/main.js"></script>
+</body>
+
+</html>

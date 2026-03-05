@@ -1,0 +1,380 @@
+{
+  "pt": {
+    "navigation": {
+      "nav_about": "Sobre",
+      "nav_barbers": "Barbeiros",
+      "nav_contact": "Contacto",
+      "nav_gallery": "Galeria",
+      "nav_purchase": "Lojas",
+      "nav_reviews": "Reviews",
+      "nav_services": "Servicos"
+    },
+    "hero": {
+      "hero_eyebrow": "Barbearia premium em Lisboa",
+      "hero_meta_three": "Ter-Sab 10:00-14:00 / 15:00-19:00",
+      "hero_meta_two": "+2000 cortes por ano",
+      "hero_subtitle": "Consulta rapida, tecnica limpa e resultado que se mantem impecavel entre visitas.",
+      "hero_title": "Cortes de precisao com assinatura Lucky Throats",
+      "hero_view_services": "Ver servicos"
+    },
+    "about": {
+      "about_desc": "Um espaco com identidade forte, boa musica e barbeiros focados em resultado. Cada servico inclui consulta curta, execucao precisa e finalizacao pensada para o teu estilo.",
+      "about_stat_1": "Anos de experiencia",
+      "about_stat_2": "Barbeiros senior",
+      "about_stat_3": "Tempo medio por servico",
+      "about_title": "Sobre a barbearia"
+    },
+    "manifesto": {
+      "manifesto_eyebrow": "Nosso manifesto",
+      "manifesto_quote": "\"Um corte forte nao precisa ser ruidoso. Precisa ser equilibrado e limpo.\"",
+      "manifesto_quote_author": "Equipa Lucky Throats",
+      "manifesto_text": "Nao vendemos pressa. Entregamos cortes que crescem bem, contornos limpos e consistencia em cada visita.",
+      "manifesto_title": "Tecnica antes da pressa. Detalhe antes da tendencia."
+    },
+    "cinema": {
+      "cinema_eyebrow": "Ambiente real da barbearia",
+      "cinema_title": "Sente a energia Lucky Throats antes da tua marcacao"
+    },
+    "editorial": {
+      "editorial_desc": "Cada imagem mostra trabalho real de corte e barba feito na cadeira, com detalhe e consistencia.",
+      "editorial_instagram": "Segue o nosso Instagram",
+      "editorial_kicker": "Dentro da barbearia",
+      "editorial_main_badge": "Corte em execucao",
+      "editorial_main_title": "Linhas limpas, degrade controlado e revisao final antes de terminar.",
+      "editorial_thumb_1": "Consulta e divisao",
+      "editorial_thumb_2": "Degrade e contorno",
+      "editorial_thumb_3": "Finalizacao de barba e nuca",
+      "editorial_title": "Resultados reais, todos os dias"
+    },
+    "services": {
+      "services_group_core": "Servicos principais",
+      "services_group_detail": "Servicos de detalhe",
+      "services_note": "Cada servico inclui consulta rapida, execucao precisa e verificacao final de detalhe. Reserva antecipada recomendada para garantir o horario ideal.",
+      "services_page_title": "Servicos e Precos",
+      "services_title": "Servicos e precos"
+    },
+    "service_items": {
+      "service_1_desc": "Corte classico com finalizacao personalizada.",
+      "service_1_title": "Corte de Cabelo (HAIRCUT)",
+      "service_2_desc": "Buzzcut limpo com acabamento de nuca e contornos.",
+      "service_2_title": "Corte de Cabelo Rapado (BUZZCUT)",
+      "service_3_desc": "Buzzcut with fade para um visual mais marcado.",
+      "service_3_title": "Corte de Cabelo Rapado C/ Degrade (BUZZCUT WITH FADE)",
+      "service_4_desc": "Ajuste e desenho de barba com maquina.",
+      "service_4_title": "Barba a Maquina (BEARD TRIM)",
+      "service_5_desc": "Hot towel shave com acabamento de navalha.",
+      "service_5_title": "Barba a Navalha (HOT TOWEL SHAVE)",
+      "service_6_desc": "Shave completo da cabeca com acabamento preciso.",
+      "service_6_title": "Cabeca a Navalha (HEAD SHAVE)",
+      "service_7_desc": "Haircut e hot towel shave no mesmo servico.",
+      "service_7_title": "Combo - Corte de Cabelo e Barba (COMBO - HAIRCUT & HOT TOWEL SHAVE)"
+    },
+    "locations": {
+      "locations_hero_eyebrow": "Lucky Throats Lisboa",
+      "locations_hero_subtitle": "Escolhe a loja mais proxima, abre o mapa e reserva o teu horario em menos de um minuto.",
+      "locations_hero_title": "Lojas",
+      "locations_meta_area": "Belem e Principe Real",
+      "locations_meta_hours": "Ter-Sab 10:00-14:00 / 15:00-19:00 (Dom-Seg encerrado)",
+      "locations_meta_phone": "+351 968 914 130"
+    },
+    "location_cards": {
+      "location_one_address": "Rua do Embaixador 164, 1300-218 Lisboa",
+      "location_one_title": "Lucky Throats - Belem",
+      "location_two_address": "Rua dos Prazeres 66A, 1200-356 Lisboa",
+      "location_two_title": "Lucky Throats - Principe Real"
+    },
+    "purchase": {
+      "purchase_button": "Reservar agora",
+      "purchase_lead": "As duas lojas usam a mesma agenda oficial. Escolhe a loja, confirma o horario e reserva em poucos cliques.",
+      "purchase_title": "Lojas e reserva online"
+    },
+    "journey": {
+      "journey_step_1_text": "Alinhamos formato, comprimento e rotina para garantir um resultado que combina contigo.",
+      "journey_step_1_title": "Consulta",
+      "journey_step_2_text": "Corte e barba com tecnica limpa, transicoes suaves e ritmo consistente.",
+      "journey_step_2_title": "Execucao",
+      "journey_step_3_text": "Revemos os detalhes no espelho e ajustamos ate ficar certo para ti.",
+      "journey_step_3_title": "Finalizacao",
+      "journey_title": "Como decorre a tua visita"
+    },
+    "map": {
+      "map_modal_title": "Mapa da loja",
+      "map_open_button": "Abrir mapa"
+    },
+    "team": {
+      "team_bio_1": "Joao define o padrao tecnico entre as duas lojas, com foco em acabamento limpo e atencao ao detalhe.",
+      "team_bio_2": "Tiago combina fades modernos e linhas classicas de barba com leitura precisa do rosto de cada cliente.",
+      "team_bio_3": "Miguel entrega cortes classicos limpos com nuca definida e proporcao equilibrada para o dia a dia.",
+      "team_bio_4": "Andre foca em fades modernos e detalhe de barba com acabamento consistente e atendimento calmo.",
+      "team_intro_text": "Barbeiros que garantem a assinatura Lucky Throats: consulta clara, tecnica forte e acabamento consistente.",
+      "team_kicker": "A equipa por tras da cadeira",
+      "team_label_1": "Fundador",
+      "team_label_2": "Barbeiro senior",
+      "team_label_3": "Barbeiro",
+      "team_label_4": "Barbeiro",
+      "team_loc_1_lead_name": "Joao Macedo",
+      "team_loc_1_lead_role": "Fundador",
+      "team_loc_1_list_title": "Tambem em Belem",
+      "team_loc_1_skill_1": "Cortes classicos a tesoura",
+      "team_loc_1_skill_2": "Especialista em barba",
+      "team_loc_1_skill_3": "Consulta e direcao por formato de rosto",
+      "team_loc_1_title": "Belem",
+      "team_loc_2_lead_name": "Tiago Pereira",
+      "team_loc_2_lead_role": "Barbeiro senior",
+      "team_loc_2_list_title": "Tambem em Principe Real",
+      "team_loc_2_skill_1": "Fades e degradados de precisao",
+      "team_loc_2_skill_2": "Linhas classicas de barba",
+      "team_loc_2_skill_3": "Finalizacao limpa e dicas de styling",
+      "team_loc_2_title": "Principe Real",
+      "team_meta_1": "Belem e Principe Real",
+      "team_meta_2": "Belem",
+      "team_meta_3": "Belem e Principe Real",
+      "team_meta_4": "Belem e Principe Real",
+      "team_next": "Seguinte",
+      "team_page_eyebrow": "Barbeiros Lucky Throats",
+      "team_page_subtitle": "Escolhe o barbeiro certo para o teu estilo em Belem ou Principe Real, com foco em resultado e consistencia.",
+      "team_page_title": "Conhece a equipa por tras de cada finalizacao limpa",
+      "team_prev": "Anterior",
+      "team_title": "A nossa equipa"
+    },
+    "gallery": {
+      "gallery_tag_1": "Classic fade",
+      "gallery_tag_2": "Beard shape",
+      "gallery_tag_3": "Modern texture",
+      "gallery_tag_4": "Scissor craft",
+      "gallery_title": "Galeria"
+    },
+    "reviews": {
+      "review_1": "\"Atendimento pontual, corte limpo e resultado mesmo como pedi.\"",
+      "review_2": "\"Reservei online em menos de um minuto e fui atendido a horas.\"",
+      "review_3": "\"Melhor acabamento de barba que ja fiz em Lisboa, com calma e detalhe.\"",
+      "reviews_title": "Clientes reais, resultados reais"
+    },
+    "faq": {
+      "faq_a1": "Sim. O calendario no iframe mostra horarios disponiveis em tempo real.",
+      "faq_a2": "Quando ha disponibilidade sim, mas recomendamos reserva para garantir horario.",
+      "faq_a3": "Cartao, MB Way e numerario.",
+      "faq_q1": "Posso marcar para hoje?",
+      "faq_q2": "Aceitam walk-ins?",
+      "faq_q3": "Que metodos de pagamento aceitam?",
+      "faq_title": "Perguntas frequentes"
+    },
+    "cta": {
+      "cta_eyebrow": "Pronto para o proximo corte?",
+      "cta_title": "Garante o teu horario em menos de um minuto."
+    },
+    "contact": {
+      "contact_address": "Lucky Throats Belem - Rua do Embaixador 164, 1300-218 Lisboa",
+      "contact_address_two": "Lucky Throats Principe Real - Rua dos Prazeres 66A, 1200-356 Lisboa",
+      "contact_hours": "Ter-Sab: 10:00-14:00 / 15:00-19:00 (Dom-Seg encerrado)",
+      "contact_title": "Contacto"
+    },
+    "booking": {
+      "booking_modal_title": "Reserva online"
+    },
+    "footer": {
+      "footer_copy": "(c) 2026 Lucky Throats. Todos os direitos reservados."
+    },
+    "book": {
+      "book_now": "Marcar agora",
+      "book_short": "Marcar",
+      "book_site": "Marcar pelo site",
+      "book_slot": "Reservar"
+    },
+    "fallback": {
+      "fallback_link": "Abrir agenda numa nova aba"
+    },
+    "loading": {
+      "loading_booking": "A carregar agenda..."
+    }
+  },
+  "en": {
+    "navigation": {
+      "nav_about": "About",
+      "nav_barbers": "Barbers",
+      "nav_contact": "Contact",
+      "nav_gallery": "Gallery",
+      "nav_purchase": "Locations",
+      "nav_reviews": "Reviews",
+      "nav_services": "Services"
+    },
+    "hero": {
+      "hero_eyebrow": "Premium barbershop in Lisbon",
+      "hero_meta_three": "Tue-Sat 10:00-14:00 / 15:00-19:00",
+      "hero_meta_two": "+2000 haircuts per year",
+      "hero_subtitle": "Fast consultation, clean technique and a result that stays sharp between visits.",
+      "hero_title": "Precision cuts with Lucky Throats signature",
+      "hero_view_services": "View services"
+    },
+    "about": {
+      "about_desc": "A studio with strong identity, right music and barbers focused on results. Every service includes a short consultation, precise execution and a clean finish.",
+      "about_stat_1": "Years of experience",
+      "about_stat_2": "Senior barbers",
+      "about_stat_3": "Average service time",
+      "about_title": "About the barbershop"
+    },
+    "manifesto": {
+      "manifesto_eyebrow": "Our manifesto",
+      "manifesto_quote": "\"Strong cuts are not loud. They are balanced, clean and built around the face.\"",
+      "manifesto_quote_author": "Lucky Throats Team",
+      "manifesto_text": "We do not sell speed. We deliver haircuts that grow well, clean outlines and consistent service on every visit.",
+      "manifesto_title": "Craft before speed. Detail before trend."
+    },
+    "cinema": {
+      "cinema_eyebrow": "Inside the real shop flow",
+      "cinema_title": "Feel the Lucky Throats experience before your booking"
+    },
+    "editorial": {
+      "editorial_desc": "Every image shows real haircut and beard work delivered in the chair with precision and consistency.",
+      "editorial_instagram": "Follow our Instagram",
+      "editorial_kicker": "Inside the shop",
+      "editorial_main_badge": "Cut in progress",
+      "editorial_main_title": "Clean lines, controlled blend and a final check before finish.",
+      "editorial_thumb_1": "Consultation and sectioning",
+      "editorial_thumb_2": "Blend and contour work",
+      "editorial_thumb_3": "Beard and neckline finish",
+      "editorial_title": "Real results, every day"
+    },
+    "services": {
+      "services_group_core": "Core Services",
+      "services_group_detail": "Detail Services",
+      "services_note": "Every service includes a quick consultation, precise execution and a final detail check. Booking in advance is recommended.",
+      "services_page_title": "Services and Pricing",
+      "services_title": "Services and pricing"
+    },
+    "service_items": {
+      "service_1_desc": "Classic haircut with personalized finishing.",
+      "service_1_title": "Haircut",
+      "service_2_desc": "Clean buzzcut with neckline and contour finish.",
+      "service_2_title": "Buzzcut",
+      "service_3_desc": "Buzzcut with fade for a sharper look.",
+      "service_3_title": "Buzzcut with Fade",
+      "service_4_desc": "Beard trim and shape with machine.",
+      "service_4_title": "Beard Trim",
+      "service_5_desc": "Hot towel shave with razor finish.",
+      "service_5_title": "Hot Towel Shave",
+      "service_6_desc": "Full head shave with precise finishing.",
+      "service_6_title": "Head Shave",
+      "service_7_desc": "Haircut and hot towel shave in one service.",
+      "service_7_title": "Haircut + Beard Combo"
+    },
+    "locations": {
+      "locations_hero_eyebrow": "Lucky Throats Lisbon",
+      "locations_hero_subtitle": "Choose your nearest shop, open the map and book your slot in under a minute.",
+      "locations_hero_title": "Shops",
+      "locations_meta_area": "Belem and Principe Real",
+      "locations_meta_hours": "Tue-Sat 10:00-14:00 / 15:00-19:00 (Sun-Mon closed)",
+      "locations_meta_phone": "+351 968 914 130"
+    },
+    "location_cards": {
+      "location_one_address": "Rua do Embaixador 164, 1300-218 Lisbon",
+      "location_one_title": "Lucky Throats - Belem",
+      "location_two_address": "Rua dos Prazeres 66A, 1200-356 Lisbon",
+      "location_two_title": "Lucky Throats - Principe Real"
+    },
+    "purchase": {
+      "purchase_button": "Book now",
+      "purchase_lead": "Both locations use the same official booking page. Choose your shop, confirm your time and reserve in a few clicks.",
+      "purchase_title": "Locations and online booking"
+    },
+    "journey": {
+      "journey_step_1_text": "We align shape, length and maintenance so the result fits your routine.",
+      "journey_step_1_title": "Consultation",
+      "journey_step_2_text": "Hair and beard work with clean transitions, precision and steady rhythm.",
+      "journey_step_2_title": "Execution",
+      "journey_step_3_text": "Final mirror check and detail adjustments until the silhouette is right.",
+      "journey_step_3_title": "Finishing",
+      "journey_title": "How your visit flows"
+    },
+    "map": {
+      "map_modal_title": "Location map",
+      "map_open_button": "Open map"
+    },
+    "team": {
+      "team_bio_1": "Joao sets the technical standard across both shops with a focus on clean finishes and consistency.",
+      "team_bio_2": "Tiago blends modern fades and classic beard lines with face-shape precision for each client.",
+      "team_bio_3": "Miguel delivers clean classic cuts with sharp necklines and balanced proportions for everyday wear.",
+      "team_bio_4": "Andre focuses on modern fades and beard detailing with consistent finish quality and calm client flow.",
+      "team_intro_text": "Meet the barbers behind the Lucky Throats signature: clear consultation, precise technique and consistent finishing.",
+      "team_kicker": "The team behind the chair",
+      "team_label_1": "Founder",
+      "team_label_2": "Senior barber",
+      "team_label_3": "Barber",
+      "team_label_4": "Barber",
+      "team_loc_1_lead_name": "Joao Macedo",
+      "team_loc_1_lead_role": "Founder",
+      "team_loc_1_list_title": "Also in Belem",
+      "team_loc_1_skill_1": "Classic scissor haircuts",
+      "team_loc_1_skill_2": "Beard specialist",
+      "team_loc_1_skill_3": "Consultation and face-shape direction",
+      "team_loc_1_title": "Belem",
+      "team_loc_2_lead_name": "Tiago Pereira",
+      "team_loc_2_lead_role": "Senior Barber",
+      "team_loc_2_list_title": "Also in Principe Real",
+      "team_loc_2_skill_1": "Fades and precision blending",
+      "team_loc_2_skill_2": "Classic beard lines",
+      "team_loc_2_skill_3": "Clean finish and styling guidance",
+      "team_loc_2_title": "Principe Real",
+      "team_meta_1": "Belem and Principe Real",
+      "team_meta_2": "Belem",
+      "team_meta_3": "Belem and Principe Real",
+      "team_meta_4": "Belem and Principe Real",
+      "team_next": "Next",
+      "team_page_eyebrow": "Lucky Throats Barbers",
+      "team_page_subtitle": "Choose the right barber for your style in Belem or Principe Real, with consistent high-standard execution.",
+      "team_page_title": "Meet the team behind every clean finish",
+      "team_prev": "Prev",
+      "team_title": "Our team"
+    },
+    "gallery": {
+      "gallery_tag_1": "Classic fade",
+      "gallery_tag_2": "Beard shape",
+      "gallery_tag_3": "Modern texture",
+      "gallery_tag_4": "Scissor craft",
+      "gallery_title": "Gallery"
+    },
+    "reviews": {
+      "review_1": "\"On time, clean cut and exactly the result I asked for.\"",
+      "review_2": "\"Booked online in under a minute and got seated right away.\"",
+      "review_3": "\"Best beard finish I have had in Lisbon, calm and precise.\"",
+      "reviews_title": "Real clients, real results"
+    },
+    "faq": {
+      "faq_a1": "Yes. The iframe calendar shows real-time availability.",
+      "faq_a2": "Yes when slots are free, but booking is recommended.",
+      "faq_a3": "Card, MB Way and cash.",
+      "faq_q1": "Can I book for today?",
+      "faq_q2": "Do you accept walk-ins?",
+      "faq_q3": "Which payment methods are accepted?",
+      "faq_title": "Frequently asked questions"
+    },
+    "cta": {
+      "cta_eyebrow": "Ready for your next cut?",
+      "cta_title": "Secure your slot in under one minute."
+    },
+    "contact": {
+      "contact_address": "Lucky Throats Belem - Rua do Embaixador 164, 1300-218 Lisbon",
+      "contact_address_two": "Lucky Throats Principe Real - Rua dos Prazeres 66A, 1200-356 Lisbon",
+      "contact_hours": "Tue-Sat: 10:00-14:00 / 15:00-19:00 (Sun-Mon closed)",
+      "contact_title": "Contact"
+    },
+    "booking": {
+      "booking_modal_title": "Online booking"
+    },
+    "footer": {
+      "footer_copy": "(c) 2026 Lucky Throats. All rights reserved."
+    },
+    "book": {
+      "book_now": "Book now",
+      "book_short": "Book",
+      "book_site": "Book on website",
+      "book_slot": "Book slot"
+    },
+    "fallback": {
+      "fallback_link": "Open booking in a new tab"
+    },
+    "loading": {
+      "loading_booking": "Loading booking..."
+    }
+  }
+}

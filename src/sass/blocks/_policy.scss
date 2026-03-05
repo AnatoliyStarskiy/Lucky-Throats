@@ -1,0 +1,16 @@
+.policy-page {
+  padding-top: 96px;
+
+  &__section {
+    padding-top: 0;
+  }
+
+  &__container {
+    max-width: 860px;
+  }
+
+  &__note {
+    margin-top: 2rem;
+    opacity: 0.8;
+  }
+}

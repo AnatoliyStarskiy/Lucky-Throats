@@ -1,0 +1,58 @@
+﻿@use '../base/variables' as *;
+
+.contacts {
+  &__layout {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 1rem;
+    align-items: stretch;
+    background: linear-gradient(160deg, rgba(14, 10, 10, 0.66), rgba(33, 15, 16, 0.56));
+    border: none;
+    border-radius: 16px;
+    padding: 1.2rem;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      content: none;
+      position: absolute;
+      inset: 10px;
+      border: none;
+      border-radius: 11px;
+      pointer-events: none;
+    }
+  }
+
+  .title {
+    color: $color-white;
+    text-align: left;
+  }
+
+  .divider {
+    margin-left: 0;
+  }
+
+  &__text {
+    color: rgba(255, 255, 255, 0.83);
+    margin: 0.45rem 0;
+  }
+
+  &__map-link {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.35);
+
+    &:hover {
+      color: #fff;
+      border-bottom-color: rgba(255, 255, 255, 0.7);
+    }
+  }
+
+  &__map {
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    min-height: 320px;
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35);
+  }
+}

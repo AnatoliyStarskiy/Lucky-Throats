@@ -1,0 +1,126 @@
+.skills__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 30px;
+    perspective: 1000px;
+    margin-top: 40px;
+}
+
+.skill-card {
+    width: 100%;
+    height: 240px;
+    position: relative;
+    border-radius: 16px;
+    cursor: pointer;
+    background: transparent;
+
+    &__inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s ease;
+        transform-style: preserve-3d;
+    }
+
+    &.flipped &__inner {
+        transform: rotateY(180deg);
+    }
+
+    &__front,
+    &__back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        border-radius: 16px;
+        padding: 25px 15px;
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(15px);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skill-card {
+        // остальное без изменений…
+
+        &__back {
+            // уже есть:
+            transform: rotateY(180deg);
+            font-size: 13px;
+            color: #333;
+            line-height: 1.4;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            .skill-card__link-wrap {
+                margin-top: 16px;
+            }
+
+            .skill-card__link {
+                font-size: 13px;
+                font-weight: 500;
+                color: #222;
+                text-decoration: none;
+                position: relative;
+                padding-bottom: 2px;
+                transition: all 0.3s ease;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    height: 1px;
+                    width: 100%;
+                    background: rgba(0, 0, 0, 0.2);
+                    transition: background 0.3s ease;
+                }
+
+                &:hover {
+                    color: #000;
+
+                    &::after {
+                        background: rgba(0, 0, 0, 0.6);
+                    }
+                }
+            }
+        }
+    }
+
+
+    img {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-size: 15px;
+        font-weight: 600;
+        color: #222;
+        margin-bottom: 12px;
+    }
+
+    .progress-bar {
+        height: 4px;
+        background: #e0e0e0;
+        border-radius: 4px;
+        width: 100%;
+        overflow: hidden;
+
+        span {
+            display: block;
+            height: 100%;
+            background: #00bcd4; // нейтральный фирменный цвет
+        }
+    }
+}

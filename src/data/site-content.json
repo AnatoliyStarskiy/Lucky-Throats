@@ -1,0 +1,281 @@
+{
+  "services": {
+    "items": [
+      {
+        "id": "service_1",
+        "group": "core",
+        "price": "20",
+        "category": {
+          "pt": "Cabelo",
+          "en": "Hair"
+        },
+        "titleKey": "service_1_title",
+        "descKey": "service_1_desc"
+      },
+      {
+        "id": "service_2",
+        "group": "core",
+        "price": "12.5",
+        "category": {
+          "pt": "Cabelo",
+          "en": "Hair"
+        },
+        "titleKey": "service_2_title",
+        "descKey": "service_2_desc"
+      },
+      {
+        "id": "service_3",
+        "group": "core",
+        "price": "14.5",
+        "category": {
+          "pt": "Cabelo",
+          "en": "Hair"
+        },
+        "titleKey": "service_3_title",
+        "descKey": "service_3_desc"
+      },
+      {
+        "id": "service_4",
+        "group": "detail",
+        "price": "11",
+        "category": {
+          "pt": "Barba",
+          "en": "Beard"
+        },
+        "titleKey": "service_4_title",
+        "descKey": "service_4_desc"
+      },
+      {
+        "id": "service_5",
+        "group": "detail",
+        "price": "17",
+        "category": {
+          "pt": "Barba",
+          "en": "Beard"
+        },
+        "titleKey": "service_5_title",
+        "descKey": "service_5_desc"
+      },
+      {
+        "id": "service_6",
+        "group": "detail",
+        "price": "17",
+        "category": {
+          "pt": "Cabeca",
+          "en": "Head"
+        },
+        "titleKey": "service_6_title",
+        "descKey": "service_6_desc"
+      },
+      {
+        "id": "service_7",
+        "group": "core",
+        "price": "35",
+        "category": {
+          "pt": "Combo",
+          "en": "Combo"
+        },
+        "titleKey": "service_7_title",
+        "descKey": "service_7_desc"
+      }
+    ]
+  },
+  "team": {
+    "locations": [
+      {
+        "key": "belem",
+        "defaultBarberId": "joao_macedo",
+        "barbers": [
+          {
+            "id": "joao_macedo",
+            "name": "Joao Macedo",
+            "role": {
+              "pt": "Fundador",
+              "en": "Founder"
+            },
+            "description": {
+              "pt": "Joao lidera a consistencia tecnica nas duas lojas, com foco em acabamento limpo, consulta calma e resultados que continuam fortes com o crescimento do corte.",
+              "en": "Joao leads technical consistency across both shops, focused on clean finishes, calm consultation and results that stay sharp as the cut grows."
+            },
+            "skills": {
+              "pt": [
+                "Cortes classicos a tesoura",
+                "Especialista em barba",
+                "Consulta e direcao por formato de rosto"
+              ],
+              "en": [
+                "Classic scissor haircuts",
+                "Beard specialist",
+                "Consultation and face-shape direction"
+              ]
+            },
+            "image": "/img/bg.jpg",
+            "position": "46% center"
+          },
+          {
+            "id": "joao_velez",
+            "name": "Joao Velez",
+            "role": {
+              "pt": "Barbeiro senior",
+              "en": "Senior Barber"
+            },
+            "description": {
+              "pt": "Joao Velez e especialista em fades modernos e controlo de textura, criando silhuetas estruturadas com detalhe limpo.",
+              "en": "Joao Velez specializes in modern fades and texture control, delivering structured silhouettes with clean detail work."
+            },
+            "skills": {
+              "pt": [
+                "Fades modernos",
+                "Cortes crop e textura",
+                "Execucao rapida e limpa"
+              ],
+              "en": [
+                "Modern fades",
+                "Texture and crop cuts",
+                "Fast and clean execution"
+              ]
+            },
+            "image": "/img/bg.jpg",
+            "position": "62% center"
+          },
+          {
+            "id": "tiago_pereira",
+            "name": "Tiago Pereira",
+            "role": {
+              "pt": "Barbeiro senior",
+              "en": "Senior Barber"
+            },
+            "description": {
+              "pt": "Tiago combina degradados de precisao e arquitetura de barba com atendimento calmo e verificacao final consistente.",
+              "en": "Tiago combines precise blending and beard architecture with calm service flow and consistent final checks."
+            },
+            "skills": {
+              "pt": [
+                "Degradados de precisao",
+                "Linhas classicas de barba",
+                "Finalizacao limpa e styling"
+              ],
+              "en": [
+                "Precision blending",
+                "Classic beard lines",
+                "Clean finishing and styling"
+              ]
+            },
+            "image": "/img/bg.jpg",
+            "position": "36% center"
+          },
+          {
+            "id": "bernardo_nunes",
+            "name": "Bernardo Nunes",
+            "role": {
+              "pt": "Barbeiro",
+              "en": "Barber"
+            },
+            "description": {
+              "pt": "Bernardo foca no controlo a tesoura e proporcao natural, criando cortes que ficam limpos na loja e em casa.",
+              "en": "Bernardo focuses on scissor control and natural proportion, building haircuts that look clean in the shop and at home."
+            },
+            "skills": {
+              "pt": [
+                "Tesoura sobre pente",
+                "Controlo de forma natural",
+                "Detalhe forte de nuca"
+              ],
+              "en": [
+                "Scissor over comb",
+                "Natural shape control",
+                "Strong neckline details"
+              ]
+            },
+            "image": "/img/bg.jpg",
+            "position": "54% center"
+          }
+        ]
+      },
+      {
+        "key": "principe_real",
+        "defaultBarberId": "tiago_pereira",
+        "barbers": [
+          {
+            "id": "joao_macedo",
+            "name": "Joao Macedo",
+            "role": {
+              "pt": "Fundador",
+              "en": "Founder"
+            },
+            "description": {
+              "pt": "Joao lidera a consistencia tecnica nas duas lojas, com foco em acabamento limpo, consulta calma e resultados que continuam fortes com o crescimento do corte.",
+              "en": "Joao leads technical consistency across both shops, focused on clean finishes, calm consultation and results that stay sharp as the cut grows."
+            },
+            "skills": {
+              "pt": [
+                "Cortes classicos a tesoura",
+                "Especialista em barba",
+                "Consulta e direcao por formato de rosto"
+              ],
+              "en": [
+                "Classic scissor haircuts",
+                "Beard specialist",
+                "Consultation and face-shape direction"
+              ]
+            },
+            "image": "/img/bg.jpg",
+            "position": "46% center"
+          },
+          {
+            "id": "tiago_pereira",
+            "name": "Tiago Pereira",
+            "role": {
+              "pt": "Barbeiro senior",
+              "en": "Senior Barber"
+            },
+            "description": {
+              "pt": "Tiago tem foco em fades modernos e linhas classicas de barba, combinando leitura de rosto com acabamento consistente.",
+              "en": "Tiago is focused on modern fades and classic beard lines, combining face-shape precision with smooth, consistent finishing."
+            },
+            "skills": {
+              "pt": [
+                "Fades e degradados de precisao",
+                "Linhas classicas de barba",
+                "Finalizacao limpa e dicas de styling"
+              ],
+              "en": [
+                "Fades and precision blending",
+                "Classic beard lines",
+                "Clean finish and styling guidance"
+              ]
+            },
+            "image": "/img/bg.jpg",
+            "position": "36% center"
+          },
+          {
+            "id": "bernardo_nunes",
+            "name": "Bernardo Nunes",
+            "role": {
+              "pt": "Barbeiro",
+              "en": "Barber"
+            },
+            "description": {
+              "pt": "Bernardo foca no controlo a tesoura e proporcao natural, criando cortes que ficam limpos na loja e em casa.",
+              "en": "Bernardo focuses on scissor control and natural proportion, building haircuts that look clean in the shop and at home."
+            },
+            "skills": {
+              "pt": [
+                "Tesoura sobre pente",
+                "Controlo de forma natural",
+                "Detalhe forte de nuca"
+              ],
+              "en": [
+                "Scissor over comb",
+                "Natural shape control",
+                "Strong neckline details"
+              ]
+            },
+            "image": "/img/bg.jpg",
+            "position": "54% center"
+          }
+        ]
+      }
+    ]
+  }
+}
